@@ -1,0 +1,76 @@
+.header {
+  position: relative;
+  z-index: -1;
+}
+.header img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+.Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.4;
+}
+.header .Content {
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  background: #000;
+  color: #fff;
+  padding: 12px;
+}
+.header .Content h6 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.header .Content h6 span {
+  font-size: 55px;
+  font-weight: 600;
+  color: red;
+}
+/*Custom Section*/
+.custom {
+  margin-top: -100px;
+  z-index: 1;
+}
+.custom .box {
+  overflow: hidden;
+}
+.custom .box img {
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+}
+.custom .box:hover img {
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+/*Second Header*/
+.second_header {
+  position: relative;
+  margin-bottom: 150px;
+}
+.second_header img {
+  height: 60vh;
+  width: 100%;
+  object-fit: cover;
+}
+.second_header .SecondHeaderContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.second_header .SecondHeaderContent h6 {
+  font-size: 100px;
+  font-weight: 600;
+}

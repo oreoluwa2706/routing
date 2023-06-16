@@ -1,0 +1,41 @@
+.testimonial {
+  margin-bottom: 150px;
+}
+.content {
+  text-align: center;
+  margin: 80px auto;
+}
+.content h6 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.content p {
+  font-size: 12px;
+}
+.testimonial .box {
+  position: relative;
+  box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.4),
+    inset 10px 10px 10px -10px rgba(0, 0, 0, 0.9);
+  padding: 20px;
+}
+.testimonial img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+}
+.testimonial .box h6 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.testimonial .box:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+.testimonial .mid {
+  margin-top: 80;
+}
