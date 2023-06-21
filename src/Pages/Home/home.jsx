@@ -1,9 +1,10 @@
 import Header from "../../images/quiz.21c92eb7.jpg";
-import Custom1 from "../../images/network.jpg";
-import Custom2 from "../../images/myimage.png";
-import Custom3 from "../../images/cartoon.png";
+import Custom1 from "../../images/Dark Green White Clean & Simple Infographic Information Instagram Story.png";
+import Custom2 from "../../images/Grey White Modern Minimalist Infographic Instagram Story.png";
+import Custom3 from "../../images/Purple White Red Energetic Abstract Announcement Facebook Post.png";
 import React from "react";
 import "./home.css";
+import Best from "../../Components/best/best";
 import CustomSection from "../../Components/custom/custom";
 import { Testimonial } from "../../Components";
 import SecondHeader from "../../images/imagessa.jpg";
@@ -19,13 +20,14 @@ const Home = () => {
         </div>
         <div className="Content">
           <h6>
-            Coding is a <span>Process</span>
+            Transform Your Business with a <span>Stunning Website!</span>
           </h6>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
-            numquam nam. Sit odit expedita laboriosam possimus distinctio, vitae
-            harum fugiat doloremque quas mollitia rerum corrupti error, eum
-            nihil ad pariatur.
+            Are you looking to establish a strong online presence for your
+            business? Look no further! We are here to bring your vision to life
+            with captivating and professional website design. In today's digital
+            world, a well-designed website is crucial for attracting customers
+            and staying ahead of the competition
           </p>
         </div>
       </div>
@@ -61,11 +63,15 @@ const Home = () => {
           <div className="Overlay"> </div>
         </div>
         <div className="SecondHeaderContent">
-          <h6>We are starting right now...</h6>
+          <h6>Search Engine Visibility...</h6>
         </div>
       </div>
       {/**Testimonial */}
       <Testimonial />
+      {/**Best Events */}
+
+      <Best />
+      {/**Footer */}
     </>
   );
 };

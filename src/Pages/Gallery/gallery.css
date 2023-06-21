@@ -1,0 +1,16 @@
+.event_speaker {
+  margin-bottom: 150px;
+}
+.event_speaker .box {
+  overflow: hidden;
+}
+.event_speaker img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+.event_speaker .box:hover img {
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}

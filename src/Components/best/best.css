@@ -1,0 +1,15 @@
+.best {
+  margin-bottom: 150px;
+}
+.best .box {
+  overflow: hidden;
+}
+.best .box img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+.best .box:hover img {
+  transform: scale(1.1);
+  cursor: pointer;
+}

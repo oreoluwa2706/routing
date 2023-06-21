@@ -23,7 +23,7 @@ const Navbar = () => {
         }
       >
         <NavLink to="/" className="navbar-brand">
-          <span>L</span>et's Code
+          <span>D</span>rills&Bits
         </NavLink>
         <div>
           <ul className="navbar-nav">
@@ -34,18 +34,18 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <NavLink to="/" className="nav-link">
+              <NavLink to="/about" className="nav-link">
                 About
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/" className="nav-link">
+              <NavLink to="/gallery" className="nav-link">
                 Gallery
               </NavLink>
             </li>
 
             <li className="nav-item">
-              <NavLink to="/" className="nav-link">
+              <NavLink to="/contact" className="nav-link">
                 Contact
               </NavLink>
             </li>
